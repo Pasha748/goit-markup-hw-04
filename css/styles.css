@@ -590,10 +590,12 @@ body {
 }
 .port-products-item {
   margin-right: 30px;
-  border: 1px solid #eeeeee;
   box-sizing: border-box;
   margin-bottom: 30px;
   width: 370px;
+}
+.products-container {
+  border: 1px solid #eeeeee;
 }
 .port-products-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
