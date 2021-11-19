@@ -161,11 +161,13 @@ body {
 
 .hero-section {
   background-color: var(--second-background-color);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   padding-top: 200px;
   padding-bottom: 200px;
-}
-
-.hero-container {
 }
 
 .hero-title {
@@ -207,6 +209,18 @@ body {
 }
 
 /* --------------Benefits-------------- */
+
+.benefits-container {
+  display: flex;
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
 .benefits-title {
   border: 0;
   clip: rect(0 0 0 0);
