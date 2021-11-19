@@ -117,28 +117,44 @@ body {
 .nav-link:focus {
   color: var(--accent-color);
 }
+.header-contacts {
+  align-content: center;
+}
 .header-mail {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--contacts-color);
   margin-right: 50px;
+  align-items: center;
+}
+.header-mail-svg {
+  margin-right: 10px;
+  fill: currentColor;
 }
 .header-mail:hover,
 .header-mail:focus {
   color: var(--accent-color);
 }
+
 .header-tel {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--contacts-color);
+  align-items: center;
 }
 .header-tel:hover,
 .header-tel:focus {
   color: var(--accent-color);
+}
+.header-tel-svg {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /* --------------Hero-------------- */
