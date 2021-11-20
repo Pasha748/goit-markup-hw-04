@@ -202,11 +202,6 @@ body {
   flex-wrap: wrap;
   border: none;
 }
-.hero-button:hover,
-.hero-button:focus {
-  background-color: #f5f4fa;
-  color: var(--main-btn-color);
-}
 
 /* --------------Benefits-------------- */
 
@@ -369,11 +364,6 @@ body {
   background-color: var(--accent-color);
   color: #ffffff;
 }
-
-/* .team-icon:hover,
-.team-icon:focus {
-  fill: #ffffff;
-} */
 
 /* --------------Clients------------ */
 
