@@ -358,20 +358,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
+  color: var(--svg-color);
+}
+.team-icon {
+  fill: currentColor;
 }
 
 .team-social-link:hover,
 .team-social-link:focus {
   background-color: var(--accent-color);
+  color: #ffffff;
 }
-.team-icon {
-  fill: var(--svg-color);
-}
-.team-icon:hover,
+
+/* .team-icon:hover,
 .team-icon:focus {
   fill: #ffffff;
-}
+} */
 
 /* --------------Clients------------ */
 
